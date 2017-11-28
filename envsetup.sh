@@ -1804,3 +1804,5 @@ else
 fi
 
 addcompletions
+
+export ANDROID_BUILD_TOP=$(gettop)
