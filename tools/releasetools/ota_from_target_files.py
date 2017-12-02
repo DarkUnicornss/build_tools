@@ -479,26 +479,18 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   # script.Print("Target: %s" % target_fp)
 
   script.Print(" ")
-  script.Print("         || THANK YOU FOR FLASHING ||        ");
+  script.Print("         || Opening void of hells ||        ");
+  script.Print("         ||    Summoning Demons   ||        ");
   script.Print(" ")
-  script.Print(" DDDDDDDDDDDDD         UUUUUUUU     UUUUUUUU ");
-  script.Print(" D::::::::::::DDD      U::::::U     U::::::U ");
-  script.Print(" D:::::::::::::::DD    U::::::U     U::::::U ");
-  script.Print(" DDD:::::DDDDD:::::D   UU:::::U     U:::::UU ");
-  script.Print("   D:::::D    D:::::D   U:::::U     U:::::U  ");
-  script.Print("   D:::::D     D:::::D  U:::::U     U:::::U  ");
-  script.Print("   D:::::D     D:::::D  U:::::U     U:::::U  ");
-  script.Print("   D:::::D     D:::::D  U:::::U     U:::::U  ");
-  script.Print("   D:::::D     D:::::D  U:::::U     U:::::U  ");
-  script.Print("   D:::::D     D:::::D  U:::::U     U:::::U  ");
-  script.Print("   D:::::D     D:::::D  U:::::U     U:::::U  ");
-  script.Print("   D:::::D    D:::::D   U::::::U   U::::::U  ");
-  script.Print(" DDD:::::DDDDD:::::D    U:::::::UUU:::::::U  ");
-  script.Print(" D:::::::::::::::DD      UU:::::::::::::UU   ");
-  script.Print(" D::::::::::::DDD          UU:::::::::UU     ");
-  script.Print(" DDDDDDDDDDDDD               UUUUUUUUU       ");
+  script.Print("  _____             _    _    _       _                           ");
+  script.Print(" |  __ \           | |  | |  | |     (_)                           ");
+  script.Print(" | |  | | __ _ _ __| | _| |  | |_ __  _  ___ ___  _ __ _ __  ___  ");
+  script.Print(" | |  | |/ _` | '__| |/ / |  | | '_ \| |/ __/ _ \| '__| '_ \/ __| ");
+  script.Print(" | |__| | (_| | |  |   <| |__| | | | | | (_| (_) | |  | | | \__ \ ");
+  script.Print(" |_____/ \__,_|_|  |_|\_\\____/|_| |_|_|\___\___/|_|  |_| |_|___/  ");
   script.Print(" ")
-  script.Print("            ||| ANDROID 8.0.0 |||            ");
+  script.Print("            ||| ANDROID OREO |||            ");
+  script.Print("      WITH <3 by Rohan || Shadow King || Fsociety28            ");
 
   script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
   device_specific.FullOTA_InstallBegin()
