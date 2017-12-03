@@ -478,19 +478,26 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   # Dump fingerprints
   # script.Print("Target: %s" % target_fp)
 
-  script.Print(" ")
-  script.Print("         || Opening void of hells ||        ");
-  script.Print("         ||    Summoning Demons   ||        ");
-  script.Print(" ")
-  script.Print("  _____             _    _    _       _                           ");
-  script.Print(" |  __ \           | |  | |  | |     (_)                           ");
-  script.Print(" | |  | | __ _ _ __| | _| |  | |_ __  _  ___ ___  _ __ _ __  ___  ");
-  script.Print(" | |  | |/ _` | '__| |/ / |  | | '_ \| |/ __/ _ \| '__| '_ \/ __| ");
-  script.Print(" | |__| | (_| | |  |   <| |__| | | | | | (_| (_) | |  | | | \__ \ ");
-  script.Print(" |_____/ \__,_|_|  |_|\_\\____/|_| |_|_|\___\___/|_|  |_| |_|___/  ");
-  script.Print(" ")
+
+  script.Print(" ");
+  script.Print("         || Opening portal to my Astral Plane..||        ");
+  script.Print("         || Welcome to the land of Shadow King ||        ");
+  script.Print(" ");
+  script.Print("  _____                _     ");
+  script.Print(" |  __ \              | |    ");
+  script.Print(" | |  | | __ _   __   | | _  ");
+  script.Print(" | |  | |/ _` | | '_| |_|/ / ");
+  script.Print(" | |__| | (_| | | |   |   <  ");
+  script.Print(" |_____/ \__,_| | |   |_|\_\ ");
+  script.Print("  _   _         _                  ");
+  script.Print(" | | | |       (_)                           ");
+  script.Print(" | | | |  _ _   _  ___ ___  _ __ _ __   ___  ");
+  script.Print(" | | | ' | _ \ | |/ __/ _ \| '__|' _ \ / __| ");
+  script.Print(" | | | | | | | | | (_| (_) | |  | || | \__ \ ");
+  script.Print(" \_____/ |_| |_|_|\___\___/|_|  |_||_| |___/ ");
+  script.Print(" ");
   script.Print("            ||| ANDROID OREO |||            ");
-  script.Print("      WITH <3 by Rohan || Shadow King || Fsociety28            ");
+  script.Print("      WITH <3 by RohanK a.k.a @Fsociety28            ");
 
   script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
   device_specific.FullOTA_InstallBegin()
